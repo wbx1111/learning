@@ -6,7 +6,7 @@ import torch.nn as nn
 from nltk import word_tokenize
 from fastapi import FastAPI
 from pydantic import BaseModel
-
+#uvicorn main:app --host 127.0.0.1 --port 8000启动
 
 # ── 模型定义（与训练时完全一致）──────────────────────────────
 class BiLSTMClassifier(nn.Module):
